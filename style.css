@@ -1,0 +1,81 @@
+body{
+    text-align:center;
+    border: solid;
+    border-color: purple;
+    background: linear-gradient(blue,red);
+}
+
+#welcome{
+    border:solid;
+    width: 80%;
+    margin: 50px auto;
+    padding: 50px;
+    background: linear-gradient(red,purple);
+}
+#timbernerslee{
+    width:250px;
+    height: 300px;
+    border-radius: 50%;
+    margin-bottom: 50px;
+}
+
+h1{
+    font-family: fantasy;
+    font-size: 40px;
+    font-weight: 300;
+}
+
+h2{
+    font-weight: 300;
+    font-size:30px;
+}
+#bio{
+    border:solid;
+    width: 80%;
+    margin: 50px auto;
+    padding: 50px;
+    background: linear-gradient(red,yellow);
+}
+.line{
+    height: 5px;
+    width: 80px;
+    background-color: black;
+    margin: 5px auto;
+}
+
+p{
+    font-weight: 200;
+    line-height: 1;
+}
+
+#name{
+    font-size: 50px;
+    font-family: 'Pinyon Script', cursive;
+    font-weight: bold;
+}
+.menu{
+    background-color: aqua;
+    list-style: none;
+    position: fixed;
+    margin:5px auto;
+    top: 0;
+    padding-left: 500px;
+    cursor: pointer;
+    font-family: fantasy;
+    z-index: 99999;
+    opacity: 0.8;
+    width: 100%;
+}
+.menu:hover{
+    opacity: 1;
+}
+
+.links{
+    float: left;
+    padding: 7px;
+    font-size: 30px
+}
+ 
+.links:hover{
+    color: red;
+}
